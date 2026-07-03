@@ -1,16 +1,3 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: afda414eaa4e6853bbb9bb8a1436d7b8_93edfd425eb811f1bd025254006c9bbf
-    ReservedCode1: V4qRnuldyxOiltnlfYhg7RWrE6mpgkYkWmGoQgj/qAgow8agmwk8yMKJjODa7KgNvjcFFg9wlVu7yno46q2CGUShCz2T2OSV7kYkYzyKKLeYyom9PAgevmnDRC3RxKCCRIW3gH0nOFPcyM83qk/zj/+Mw1yxe5AuZ8IIJiE1iA1rXQmTLxy7p6LiQWQ=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: afda414eaa4e6853bbb9bb8a1436d7b8_93edfd425eb811f1bd025254006c9bbf
-    ReservedCode2: V4qRnuldyxOiltnlfYhg7RWrE6mpgkYkWmGoQgj/qAgow8agmwk8yMKJjODa7KgNvjcFFg9wlVu7yno46q2CGUShCz2T2OSV7kYkYzyKKLeYyom9PAgevmnDRC3RxKCCRIW3gH0nOFPcyM83qk/zj/+Mw1yxe5AuZ8IIJiE1iA1rXQmTLxy7p6LiQWQ=
----
-
-
-
 # No9. 二次剩余的奥秘——从 Legendre 符号到二次互反律
 
 > "Theorema aureum."（黄金定理。）—— Gauss 对二次互反律的评价
@@ -291,4 +278,3 @@ $$(2p_1 p_2 \cdots p_n)^2 \equiv -1 \pmod{q}$$
 ## 预告
 
 下一期我们将转向代数板块，讨论一个让无数高中生又爱又恨的经典主题——**韦达定理的对称魔法**。它不止是二次方程求根公式的副产品；在对称多项式的视角下，韦达定理是打开整个代数方程理论的一把钥匙。
-*（内容由AI生成，仅供参考）*
