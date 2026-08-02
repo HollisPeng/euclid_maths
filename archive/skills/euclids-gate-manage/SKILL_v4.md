@@ -89,7 +89,6 @@ C:\Users\wlx\Desktop\euclid_maths\article_index.json
 ### 步骤四：保存与更新索引
 
 - 文件命名格式：`No{id}_主题.md`，保存到 output 目录
-- **日常短文（S 系列）特殊处理**：文件名 `S{编号}_主题.md`；记录进索引（category 标「短篇」）但**不加入 agenda.pending_answers**（无思考题）、不写预告字段、不参与板块轮换
 - 更新 article_index.json：
   - 追加新文章记录（id 递增、标题、日期、板块、预告、思考题、questions_answered: false）
   - 从 agenda.pending_topics 中移除已完成的预告
