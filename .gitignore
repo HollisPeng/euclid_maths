@@ -1,9 +1,16 @@
 # Claude Code local settings
 .claude/settings.local.json
 
+# 含 API 密钥的配置，禁止入库（密钥请放 settings.local.json 的 env 段）
+.claude/mcp.json
+.claude/settings.json
+
 # ZIP archives
 *.zip
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Python caches
+__pycache__/
