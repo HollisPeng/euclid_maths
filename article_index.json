@@ -219,25 +219,135 @@
                 "以直报怨的把10分报复减为5分，你是否有过不全额报复反而打破复仇循环的时刻"
             ],
             "questions_answered": false
+        },
+        {
+            "id": 17,
+            "title": "S1. 无理数的整数心：一个递推的故事",
+            "date": "2026-08-02",
+            "category": "短篇",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S1_无理数的整数心.md",
+            "preview": "",
+            "questions": [],
+            "questions_answered": true
+        },
+        {
+            "id": 18,
+            "title": "S2. 聚会定理：n 个人里必有两人认识的人数相同",
+            "date": "2026-08-02",
+            "category": "短篇",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S2_聚会定理.md",
+            "preview": "",
+            "questions": [],
+            "questions_answered": true
+        },
+        {
+            "id": 19,
+            "title": "S3. 互补配对：一百个数里的折半艺术",
+            "date": "2026-08-02",
+            "category": "短篇",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S3_互补配对.md",
+            "preview": "",
+            "questions": [],
+            "questions_answered": true
+        },
+        {
+            "id": 20,
+            "title": "S4. 剪掉两个角的棋盘：为什么 62 格铺不满",
+            "date": "2026-08-02",
+            "category": "短篇",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S4_棋盘悖论.md",
+            "preview": "",
+            "questions": [],
+            "questions_answered": true
+        },
+        {
+            "id": 21,
+            "title": "S5. 循环立方不等式：单项比不过，就平均着比",
+            "date": "2026-08-02",
+            "category": "短篇",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S5_循环立方.md",
+            "preview": "",
+            "questions": [],
+            "questions_answered": true
         }
     ],
     "agenda": {
         "pending_answers": [
-            {"article_id": 1, "title": "鸽巢原理", "question_count": 3},
-            {"article_id": 2, "title": "一道恒等式三把钥匙", "question_count": 3},
-            {"article_id": 3, "title": "Lucas 定理", "question_count": 3},
-            {"article_id": 4, "title": "网格作图", "question_count": 3},
-            {"article_id": 5, "title": "组合极值", "question_count": 3},
-            {"article_id": 6, "title": "连分式", "question_count": 3},
-            {"article_id": 7, "title": "柯西-施瓦茨不等式", "question_count": 3},
-            {"article_id": 8, "title": "母函数", "question_count": 3},
-            {"article_id": 9, "title": "二次剩余", "question_count": 3},
-            {"article_id": 11, "title": "韦达定理", "question_count": 3},
-            {"article_id": 12, "title": "无穷递降法", "question_count": 3},
-            {"article_id": 13, "title": "群作用", "question_count": 3},
-            {"article_id": 14, "title": "构造性证明", "question_count": 3},
-            {"article_id": 15, "title": "非构造性证明", "question_count": 3},
-            {"article_id": 16, "title": "单次与无限博弈", "question_count": 3}
+            {
+                "article_id": 1,
+                "title": "鸽巢原理",
+                "question_count": 3
+            },
+            {
+                "article_id": 2,
+                "title": "一道恒等式三把钥匙",
+                "question_count": 3
+            },
+            {
+                "article_id": 3,
+                "title": "Lucas 定理",
+                "question_count": 3
+            },
+            {
+                "article_id": 4,
+                "title": "网格作图",
+                "question_count": 3
+            },
+            {
+                "article_id": 5,
+                "title": "组合极值",
+                "question_count": 3
+            },
+            {
+                "article_id": 6,
+                "title": "连分式",
+                "question_count": 3
+            },
+            {
+                "article_id": 7,
+                "title": "柯西-施瓦茨不等式",
+                "question_count": 3
+            },
+            {
+                "article_id": 8,
+                "title": "母函数",
+                "question_count": 3
+            },
+            {
+                "article_id": 9,
+                "title": "二次剩余",
+                "question_count": 3
+            },
+            {
+                "article_id": 11,
+                "title": "韦达定理",
+                "question_count": 3
+            },
+            {
+                "article_id": 12,
+                "title": "无穷递降法",
+                "question_count": 3
+            },
+            {
+                "article_id": 13,
+                "title": "群作用",
+                "question_count": 3
+            },
+            {
+                "article_id": 14,
+                "title": "构造性证明",
+                "question_count": 3
+            },
+            {
+                "article_id": 15,
+                "title": "非构造性证明",
+                "question_count": 3
+            },
+            {
+                "article_id": 16,
+                "title": "单次与无限博弈",
+                "question_count": 3
+            }
         ],
         "pending_topics": [
             "最后通牒博弈"
