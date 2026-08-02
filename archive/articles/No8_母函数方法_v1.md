@@ -1,14 +1,3 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: afda414eaa4e6853bbb9bb8a1436d7b8_67fb75405eae11f1bd025254006c9bbf
-    ReservedCode1: EcfU5jIRg65XsFY33dnD3GNBP3ThzZpf4n4JaoGHdAWzT9GshwHybR3kuz0LqajHutO6yx7LD9TfAkkO+t7VSbf4T62bf+lxogNEof3lhvjnEkDcpwZdt0X6GCOm4YanaBJbNo4wp+/hGBQ2IBd0n04r4X4R4Jpkjd7rtSelQrw0zF4a0ndjIpdk+Ng=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: afda414eaa4e6853bbb9bb8a1436d7b8_67fb75405eae11f1bd025254006c9bbf
-    ReservedCode2: EcfU5jIRg65XsFY33dnD3GNBP3ThzZpf4n4JaoGHdAWzT9GshwHybR3kuz0LqajHutO6yx7LD9TfAkkO+t7VSbf4T62bf+lxogNEof3lhvjnEkDcpwZdt0X6GCOm4YanaBJbNo4wp+/hGBQ2IBd0n04r4X4R4Jpkjd7rtSelQrw0zF4a0ndjIpdk+Ng=
----
-
 # No8. 母函数：数列的代数化身
 
 > "A generating function is a clothesline on which we hang up a sequence of numbers for display."
@@ -326,4 +315,3 @@ EGF 的乘法对应了"标号分配"的卷积，是处理排列类组合问题�
 ---
 
 *下一期预告：我们终于要兑现三次预告的承诺——二次剩余的奥秘。从 Legendre 符号到二次互反律，揭示模素数世界中平方根的优雅规律。*
-*（内容由AI生成，仅供参考）*

@@ -1,14 +1,3 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: afda414eaa4e6853bbb9bb8a1436d7b8_aeb103355e6211f1bd025254006c9bbf
-    ReservedCode1: HYfGfabx65fLlOqwGokLqk+HSzd+XfJNrMpJhZWqo3vnTxQ2+KJ7TWGpQy+gi7rI2aNtPUIxWjb4Y1j5JM1qCKzsWVUCa2NnPHM3+D5JUogxiIMDnfp4HcWgiQta3M4y/fW4f0mOAGq4EFKlCH+WeLo8kRjPjiU/fGfCkQ4yHTA0mhVtGqHhggD1IzY=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: afda414eaa4e6853bbb9bb8a1436d7b8_aeb103355e6211f1bd025254006c9bbf
-    ReservedCode2: HYfGfabx65fLlOqwGokLqk+HSzd+XfJNrMpJhZWqo3vnTxQ2+KJ7TWGpQy+gi7rI2aNtPUIxWjb4Y1j5JM1qCKzsWVUCa2NnPHM3+D5JUogxiIMDnfp4HcWgiQta3M4y/fW4f0mOAGq4EFKlCH+WeLo8kRjPjiU/fGfCkQ4yHTA0mhVtGqHhggD1IzY=
----
-
 # No7. 柯西-施瓦茨不等式：向量与面积的对话
 
 > "The universe is written in the language of mathematics, and its characters are triangles, circles, and other geometric figures."
@@ -207,4 +196,3 @@ $$|\text{Cov}(X, Y)| \leq \sqrt{\text{Var}(X) \cdot \text{Var}(Y)}$$
 ---
 
 *下一期我们将探讨二次剩余的奥秘——从 Legendre 符号到二次互反律，揭示模素数世界中的平方根之谜。*
-*（内容由AI生成，仅供参考）*
