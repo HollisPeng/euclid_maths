@@ -86,5 +86,5 @@ Agenda 存储在 article_index.json 的 `agenda` 字段中：
 ## 索引文件路径（固定）
 
 ```
-C:\Users\wlx\Desktop\euclid_maths\article_index.json
+C:\Users\wlx\AppData\Roaming\Tencent\Marvis\User\oAN1i2U46IdrQRZXhZd0FRdRn2E0\workspace\conv_19e7ecc2725_70d494d8379c\output\article_index.json
 ```

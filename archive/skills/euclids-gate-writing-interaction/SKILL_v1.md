@@ -106,14 +106,14 @@ description: >
 
 ## 原则 0：启动时强制加载全部 Skill 文件
 
-**每次开始新写作任务时，必须先 `Read` 加载四个 SKILL.md 文件进入上下文，作为本轮硬约束。**
+**每次开始新写作任务时，必须先 `read_text` 加载四个 SKILL.md 文件进入上下文，作为本轮硬约束。**
 
 执行顺序：在进入第一阶段之前，必须先完成以下加载：
 
-1. `Read` euclids-gate-math-writing/SKILL.md — 写作规范、模板骨架、语言规范
-2. `Read` euclids-gate-writing-interaction/SKILL.md — 两阶段流程、交互原则
-3. `Read` euclids-gate-manage/SKILL.md — 索引读写、文件保存规范
-4. `Read` euclids-gate-agenda/SKILL.md — 任务追踪规范
+1. `read_text` euclids-gate-math-writing/SKILL.md — 写作规范、模板骨架、语言规范
+2. `read_text` euclids-gate-writing-interaction/SKILL.md — 两阶段流程、交互原则
+3. `read_text` euclids-gate-manage/SKILL.md — 索引读写、文件保存规范
+4. `read_text` euclids-gate-agenda/SKILL.md — 任务追踪规范
 
 四个文件均为写作场景硬约束，缺一不可。即使当前上下文已有沉淀的偏好规则，仍需完整加载最新版 SKILL.md 以确保模板细节无偏差。
 

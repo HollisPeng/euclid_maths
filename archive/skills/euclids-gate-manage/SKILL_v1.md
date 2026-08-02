@@ -17,7 +17,7 @@ description: >
 
 **路径（固定，跨系统共用）**：
 ```
-C:\Users\wlx\Desktop\euclid_maths\article_index.json
+C:\Users\wlx\AppData\Roaming\Tencent\Marvis\User\oAN1i2U46IdrQRZXhZd0FRdRn2E0\workspace\conv_19e7ecc2725_70d494d8379c\output\article_index.json
 ```
 
 ### 索引结构
@@ -54,7 +54,7 @@ C:\Users\wlx\Desktop\euclid_maths\article_index.json
 
 ### 步骤一：询问专题方向
 
-使用 AskUserQuestion 工具询问：
+使用 ask_user 工具询问：
 
 > 本期文章有没有大概的专题方向？或者我自由选题？
 
@@ -84,7 +84,7 @@ C:\Users\wlx\Desktop\euclid_maths\article_index.json
 
 ### 步骤三：按规划撰写文章
 
-**严格按照步骤二已批准的规划执行**，零偏差。按 euclids-gate-math-writing 规范撰写。**必须使用 Write 工具将文章保存为 .md 文件到文章目录**。文章内容仅通过产出物清单（文件路径 + 简短说明）在回复中声明，**绝对禁止在聊天对话框中输出文章全文**。不要在文中自动加入往期思考题解答，除非用户明确要求调用 agenda。
+**严格按照步骤二已批准的规划执行**，零偏差。按 euclids-gate-math-writing 规范撰写。**必须使用 write_file 将文章保存为 .md 文件到 output 目录**。文章内容仅通过 yyb-product 卡片在右侧预览区展示，**绝对禁止在聊天对话框中输出文章全文**。不要在文中自动加入往期思考题解答，除非用户明确要求调用 agenda。
 
 ### 步骤四：保存与更新索引
 
@@ -97,7 +97,7 @@ C:\Users\wlx\Desktop\euclid_maths\article_index.json
 
 ### 步骤五：产出物声明
 
-在回复末尾以产出物清单（文件路径 + 简短说明）声明本次生成的 Markdown 文件。排版由用户手动完成，**绝对禁止打开浏览器或调用 browser 工具进行排版**。
+在回复末尾使用 yyb-product 卡片声明本次生成的 Markdown 文件产出物。排版由用户手动完成，**绝对禁止打开浏览器或调用 browser agent 进行排版**。
 
 ## 自动系统工作流
 
@@ -108,7 +108,7 @@ C:\Users\wlx\Desktop\euclid_maths\article_index.json
 3. 若无预告，按代数→几何→组合→数论轮换
 4. 撰写文章（不附往期解答）
 5. 保存文件并更新索引
-6. **绝对禁止打开浏览器进行排版**
+6. **绝对禁止打开浏览器或调用 browser agent 进行排版**
 
 ## 修改已写文章
 
@@ -126,5 +126,5 @@ C:\Users\wlx\Desktop\euclid_maths\article_index.json
 
 所有文章保存到：
 ```
-C:\Users\wlx\Desktop\euclid_maths
+C:\Users\wlx\AppData\Roaming\Tencent\Marvis\User\oAN1i2U46IdrQRZXhZd0FRdRn2E0\workspace\conv_19e7ecc2725_70d494d8379c\output
 ```
