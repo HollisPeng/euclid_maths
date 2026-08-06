@@ -279,6 +279,50 @@
             "preview": "",
             "questions": [],
             "questions_answered": true
+        },
+        {
+            "id": 23,
+            "title": "S6. 一笔画：奇点决定一切",
+            "date": "2026-08-03",
+            "category": "短篇",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S6_一笔画.md",
+            "preview": "",
+            "questions": [],
+            "questions_answered": true
+        },
+        {
+            "id": 24,
+            "title": "S7. 幻方之谜：为什么中间一定是 5",
+            "date": "2026-08-03",
+            "category": "短篇",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S7_幻方之谜.md",
+            "preview": "",
+            "questions": [],
+            "questions_answered": true
+        },
+        {
+            "id": 25,
+            "title": "S8. 剪绳子：对折两次，剪一刀，几段？",
+            "date": "2026-08-03",
+            "category": "短篇",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\S8_剪绳子.md",
+            "preview": "",
+            "questions": [],
+            "questions_answered": true
+        },
+        {
+            "id": 26,
+            "title": "No17. 极端原理：从最大最小处破局",
+            "date": "2026-08-03",
+            "category": "方法",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No17_极端原理.md",
+            "preview": "奇偶性专题长文：从棋盘染色到一笔画，奇偶性作为万能不变量",
+            "questions": [
+                "圆周被 n 个点分成 n 段弧，证明总存在两段相邻的弧，其长度之和不大于 720°/n",
+                "证明任何正整数都可以写成若干个互不相同的 2 的幂之和",
+                "证明任意整数 n≥2 的质因数分解是唯一的（不计顺序）"
+            ],
+            "questions_answered": false
         }
     ],
     "agenda": {
@@ -357,10 +401,17 @@
                 "article_id": 16,
                 "title": "单次与无限博弈",
                 "question_count": 3
+            },
+            {
+                "article_id": 26,
+                "title": "极端原理",
+                "question_count": 3
             }
         ],
         "pending_topics": [
-            "最后通牒博弈"
+            "最后通牒博弈",
+            "图论专题长文（从七桥问题到欧拉回路：一笔画的数学）",
+            "奇偶性专题长文（从棋盘染色到一笔画：奇偶性作为万能不变量）"
         ]
     }
 }
