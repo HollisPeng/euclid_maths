@@ -323,6 +323,20 @@
                 "证明任意整数 n≥2 的质因数分解是唯一的（不计顺序）"
             ],
             "questions_answered": false
+        },
+        {
+            "id": 27,
+            "title": "No18. 图论入门：把问题画成点和线",
+            "date": "2026-08-08",
+            "category": "组合",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No18_图论入门.md",
+            "preview": "奇偶性专题长文：从棋盘染色到一笔画，奇偶性作为万能不变量",
+            "questions": [
+                "证明：在任何一次聚会上，握过奇数次手的人数一定是偶数",
+                "一个连通图恰好有 4 个奇度点。证明：它的所有边可以被分成两条一笔画路径（每条边恰好用一次）",
+                "n 支球队两两比赛一场（无平局）。证明：存在两支球队，胜场数相同"
+            ],
+            "questions_answered": false
         }
     ],
     "agenda": {
@@ -405,6 +419,11 @@
             {
                 "article_id": 26,
                 "title": "极端原理",
+                "question_count": 3
+            },
+            {
+                "article_id": 27,
+                "title": "图论入门",
                 "question_count": 3
             }
         ],
