@@ -337,6 +337,20 @@
                 "n 支球队两两比赛一场（无平局）。证明：存在两支球队，胜场数相同"
             ],
             "questions_answered": false
+        },
+        {
+            "id": 28,
+            "title": "No20. 圆幂定理与根轴：一杆秤称尽两个圆",
+            "date": "2026-08-09",
+            "category": "几何",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No20_圆幂定理与根轴.md",
+            "preview": "调和点列与完全四边形：射影几何的种子",
+            "questions": [
+                "圆外一点 P 到圆的两条切线长分别为 5 和 5。若 PO=13，求圆的半径",
+                "三个圆两两外切。证明：它们的三条外公切线共点",
+                "三角形 ABC 中，∠A=90°，AD 是斜边上的高。证明：AD²=BD·CD"
+            ],
+            "questions_answered": false
         }
     ],
     "agenda": {
@@ -424,6 +438,11 @@
             {
                 "article_id": 27,
                 "title": "图论入门",
+                "question_count": 3
+            },
+            {
+                "article_id": 28,
+                "title": "圆幂定理与根轴",
                 "question_count": 3
             }
         ],
