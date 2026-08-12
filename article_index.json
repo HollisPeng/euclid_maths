@@ -365,6 +365,20 @@
                 "三角形 ABC 的边 AB、AC 上分别向外作正方形 ABDE、ACFG。证明：CD⊥BF 且 CD=BF"
             ],
             "questions_answered": false
+        },
+        {
+            "id": 30,
+            "title": "No19. 奇偶性：最简单的不变量",
+            "date": "2026-08-11",
+            "category": "方法",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No19_奇偶性.md",
+            "preview": "圆幂定理与根轴：一杆秤称尽两个圆",
+            "questions": [
+                "15 枚棋子排成一排，全部白色。每次翻转任意 5 枚（白变黑、黑变白）。问：能否让 15 枚全部变成黑色",
+                "证明：x² + y² = 2023 没有整数解",
+                "证明：√3 不是有理数"
+            ],
+            "questions_answered": false
         }
     ],
     "agenda": {
@@ -462,6 +476,11 @@
             {
                 "article_id": 29,
                 "title": "复数在平面几何中的运用",
+                "question_count": 3
+            },
+            {
+                "article_id": 30,
+                "title": "奇偶性",
                 "question_count": 3
             }
         ],
