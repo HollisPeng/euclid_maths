@@ -351,6 +351,20 @@
                 "三角形 ABC 中，∠A=90°，AD 是斜边上的高。证明：AD²=BD·CD"
             ],
             "questions_answered": false
+        },
+        {
+            "id": 29,
+            "title": "No21. 复数在平面几何中的运用：给几何装上代数的引擎",
+            "date": "2026-08-12",
+            "category": "几何",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No21_复数在平面几何中的运用.md",
+            "preview": "调和点列与完全四边形：射影几何的种子",
+            "questions": [
+                "用复数证明：A(0,0)、B(3,1)、C(5,4)、D(2,3) 四点构成平行四边形",
+                "z1, z2, z3 是模长相等的三个复数，且 z1+z2+z3=0。证明它们构成等边三角形的三个顶点",
+                "三角形 ABC 的边 AB、AC 上分别向外作正方形 ABDE、ACFG。证明：CD⊥BF 且 CD=BF"
+            ],
+            "questions_answered": false
         }
     ],
     "agenda": {
@@ -443,6 +457,11 @@
             {
                 "article_id": 28,
                 "title": "圆幂定理与根轴",
+                "question_count": 3
+            },
+            {
+                "article_id": 29,
+                "title": "复数在平面几何中的运用",
                 "question_count": 3
             }
         ],
