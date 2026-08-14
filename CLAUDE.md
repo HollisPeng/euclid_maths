@@ -69,3 +69,26 @@ agent-manager core                # 还原核心 8 个
 - 提交信息用约定式提交（Conventional Commits）格式：`type: 中文描述`
 - 常用 type：`feat` / `fix` / `cleanup` / `docs` / `refactor`
 - 不要在提交中包含 API key 等敏感信息
+
+## 跨 harness 交接约定
+
+本仓库会被不同 AI harness（Claude Code / DeepSeek Harness 等）交替开发。各 harness 的对话记录彼此**可读但不互通**——都以本地明文落盘（Claude Code：`~/.claude/projects/<slug>/*.jsonl`；DeepSeek Harness：`~/.dsh/sessions/<slug>/*/session.jsonl.zstd`，zstd 压缩、未加密），按项目目录索引。**无缝衔接不靠读对方聊天记录，靠把状态写进仓库文件。**
+
+### 切走前（落盘，缺一不可）
+1. `devlog/` 补一条本次会话的决策记录 + 未完成项（尤其跨会话重要决策与用户偏好）
+2. 把新约定固化进 `.claude/skills/*/SKILL.md` 或本文件，别只留在对话里
+3. `article_index.json` 与磁盘对齐（文章、agenda、pending_topics 无漂移）
+4. `git status` 确认无未提交关键改动；重大更新 commit（约定式提交）
+5. 禁止把 API key 写进任何会被提交的文件或对话转写；密钥只放环境变量 / `settings.local.json`（已 ignore）
+
+### 切回来（重建上下文，按顺序）
+1. 读本文件 CLAUDE.md（项目规范 + 本约定）
+2. 读 `devlog/` 最近一条 + `memory/MEMORY.md`（如存在）对齐上次状态
+3. 读 `article_index.json` 的 agenda（pending_topics / pending_answers）确定队列
+4. 读 `.claude/skills/` 六个 SKILL.md 加载写作工作流（写作任务前必读）
+5. 最后 `git log` 补细节——对话原文仅作有损日志，不作事实依据
+
+### 风险提示
+- 对话转写是**明文**（未加密），任何能读用户目录的程序都可能窃取；切换 harness 的「可读性」即「可窃取性」
+- 同一时间只用一个 harness 打开本目录，避免并发覆盖
+- 不同 harness 的工具名/上下文系统不同（如 Claude Code 的 Write / agent-manager / engram 在 DeepSeek Harness 中不存在），切换后先确认工具映射再动手
