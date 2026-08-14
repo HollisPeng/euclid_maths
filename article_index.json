@@ -379,6 +379,20 @@
                 "证明：√3 不是有理数"
             ],
             "questions_answered": false
+        },
+        {
+            "id": 31,
+            "title": "No22. 猜数魔术：五个问题看穿你的心思",
+            "date": "2026-08-14",
+            "category": "数论",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No22_猜数魔术.md",
+            "preview": "生日悖论：为什么 23 个人里就几乎一定有同一天生日的",
+            "questions": [
+                "想猜 1 到 63 的数，需要几张卡片？每张卡片上写几个数？",
+                "观众有一次撒谎的机会（五张卡片中有一张可以故意指错）。要保证仍能猜出原数，至少需要把范围缩小到多少？",
+                "1000 瓶药水中有一瓶有毒，毒发时间正好 24 小时。你有 10 只小白鼠，如何用一次实验找出毒药瓶？"
+            ],
+            "questions_answered": false
         }
     ],
     "agenda": {
@@ -481,6 +495,11 @@
             {
                 "article_id": 30,
                 "title": "奇偶性",
+                "question_count": 3
+            },
+            {
+                "article_id": 31,
+                "title": "猜数魔术",
                 "question_count": 3
             }
         ],
