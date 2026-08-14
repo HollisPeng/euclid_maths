@@ -393,6 +393,20 @@
                 "1000 瓶药水中有一瓶有毒，毒发时间正好 24 小时。你有 10 只小白鼠，如何用一次实验找出毒药瓶？"
             ],
             "questions_answered": false
+        },
+        {
+            "id": 32,
+            "title": "No23. 最少需要几次？",
+            "date": "2026-08-14",
+            "category": "方法",
+            "file": "C:\\Users\\wlx\\Desktop\\euclid_maths\\No23_最少需要几次.md",
+            "preview": "生日悖论：为什么 23 个人里就几乎一定有同一天生日的",
+            "questions": [
+                "13 枚硬币中 1 枚假币（轻重未知），天平称几次能找出？",
+                "27 枚硬币中 1 枚假币，且已知假币偏轻。称几次？",
+                "3 个鸡蛋，1000 层楼。最少扔几次确定临界层？"
+            ],
+            "questions_answered": false
         }
     ],
     "agenda": {
@@ -500,6 +514,11 @@
             {
                 "article_id": 31,
                 "title": "猜数魔术",
+                "question_count": 3
+            },
+            {
+                "article_id": 32,
+                "title": "最少需要几次",
                 "question_count": 3
             }
         ],
