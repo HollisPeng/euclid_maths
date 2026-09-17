@@ -17,7 +17,7 @@ description: >
 
 **路径（固定，跨系统共用）**：
 ```
-C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
+C:\Users\wlx\Desktop\euclid_maths\article_index.json
 ```
 
 ### 索引结构
