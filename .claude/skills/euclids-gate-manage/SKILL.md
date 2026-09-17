@@ -127,5 +127,5 @@ C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
 
 所有文章保存到：
 ```
-C:\Users\wlx\Desktop\euclid_maths
+C:\Users\wlx\DeskBox\CoreProjects\euclid_maths
 ```
