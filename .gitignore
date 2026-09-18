@@ -1,16 +1,58 @@
-# Claude Code local settings
-.claude/settings.local.json
-
-# 含 API 密钥的配置，禁止入库（密钥请放 settings.local.json 的 env 段）
-.claude/mcp.json
-.claude/settings.json
-
-# ZIP archives
-*.zip
-
-# OS files
+# Operating system metadata
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# Python caches
+# Editor and IDE state
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Local Claude Code configuration and credentials
+.claude/settings.local.json
+.claude/settings.json
+.claude/mcp.json
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python caches and local environments
 __pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# TeX intermediate files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Build, temporary, and packaged output
+build/
+dist/
+tmp/
+temp/
+*.bak
+*.tmp
+*.zip
+*.7z

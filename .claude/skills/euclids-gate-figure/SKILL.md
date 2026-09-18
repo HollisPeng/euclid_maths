@@ -2,7 +2,7 @@
 name: euclids-gate-figure
 description: >
   欧几里德之门数学教学配图引擎。图型路由（几何/组合→TikZ，函数图像→pgfplots，知识地图/方法地图→draw.io）、
-  编译管线（pdflatex + pdftoppm → generated_images/）与出图质检纪律（九区盘点、图注一致性、数值核对）。
+  编译管线（pdflatex + pdftoppm → assets/images/）与出图质检纪律（九区盘点、图注一致性、数值核对）。
   触发场景：文章配图、画图、作图、示意图、几何图、函数图像、数轴图、概率树、知识地图、方法地图、配图核查、
   检查图对不对。与 euclids-gate-math-writing 配合使用（后者在配图核查一步调用本技能）。
 ---
@@ -35,7 +35,7 @@ description: >
 ### 编译链
 
 ```
-.tex (standalone) → pdflatex → .pdf → pdftoppm → .png → generated_images/
+.tex (standalone) → pdflatex → .pdf → pdftoppm → .png → assets/images/
 ```
 
 - 文档类：`\documentclass[tikz,border=10pt]{standalone}`
@@ -47,7 +47,7 @@ description: >
 ### 命名与插入
 
 - 文件名：`no{编号}_{图号}_{语义}.png`（如 `no20_g3_radical.png`）
-- 插入：`![图 N：描述](generated_images/no{编号}_{图号}_{语义}.png)`
+- 从 `content/articles/` 中插入：`![图 N：描述](../../assets/images/no{编号}_{图号}_{语义}.png)`
 
 ### 中文约束（硬）
 
@@ -125,7 +125,7 @@ for n, (x, y) in pos.items():
 - **章节脉络**：长文开头的路线预告可视化
 
 项目约定：
-- 产物放 `generated_images/`，与 TikZ 图同目录
+- 产物放 `assets/images/`，与 TikZ 图同目录
 - 配色收敛到 5 色以内，同语义同色
 - 交付前跑 `check_layout.py`，无 FAIL 才算过
 

@@ -15,23 +15,23 @@ description: [TODO: Complete and informative explanation of what the skill does 
 
 **1. Workflow-Based** (best for sequential processes)
 - Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" ¡ú "Reading" ¡ú "Creating" ¡ú "Editing"
-- Structure: ## Overview ¡ú ## Workflow Decision Tree ¡ú ## Step 1 ¡ú ## Step 2...
+- Example: DOCX skill with "Workflow Decision Tree" â†’ "Reading" â†’ "Creating" â†’ "Editing"
+- Structure: ## Overview â†’ ## Workflow Decision Tree â†’ ## Step 1 â†’ ## Step 2...
 
 **2. Task-Based** (best for tool collections)
 - Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" ¡ú "Merge PDFs" ¡ú "Split PDFs" ¡ú "Extract Text"
-- Structure: ## Overview ¡ú ## Quick Start ¡ú ## Task Category 1 ¡ú ## Task Category 2...
+- Example: PDF skill with "Quick Start" â†’ "Merge PDFs" â†’ "Split PDFs" â†’ "Extract Text"
+- Structure: ## Overview â†’ ## Quick Start â†’ ## Task Category 1 â†’ ## Task Category 2...
 
 **3. Reference/Guidelines** (best for standards or specifications)
 - Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" ¡ú "Colors" ¡ú "Typography" ¡ú "Features"
-- Structure: ## Overview ¡ú ## Guidelines ¡ú ## Specifications ¡ú ## Usage...
+- Example: Brand styling with "Brand Guidelines" â†’ "Colors" â†’ "Typography" â†’ "Features"
+- Structure: ## Overview â†’ ## Guidelines â†’ ## Specifications â†’ ## Usage...
 
 **4. Capabilities-Based** (best for integrated systems)
 - Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" ¡ú numbered capability list
-- Structure: ## Overview ¡ú ## Core Capabilities ¡ú ### 1. Feature ¡ú ### 2. Feature...
+- Example: Product Management with "Core Capabilities" â†’ numbered capability list
+- Structure: ## Overview â†’ ## Core Capabilities â†’ ### 1. Feature â†’ ### 2. Feature...
 
 Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
 

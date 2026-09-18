@@ -55,7 +55,7 @@ description: >
 
 写作方向确认后，**必须**核查本期板块是否符合内容轮换规则（代数、几何、组合、数论交替，连续两篇不写同一板块）：
 
-1. 从 article_index.json 读取最近 3 篇文章的 category 字段
+1. 从 data/article_index.json 读取最近 3 篇文章的 category 字段
 2. 列出最近板块分布
 3. 判定本期应优先选择哪个板块（当前空缺最久的板块）
 4. 若本期的方向或 agenda 预告与轮换规则冲突，**主动提示用户**，并给出两个选项：
@@ -120,7 +120,7 @@ description: >
 
 #### 2.2 写作执行
 
-按 euclids-gate-math-writing 规范撰文，保存到 output 目录，更新索引。
+按 euclids-gate-math-writing 规范撰文，长文保存到 `content/articles/`，短文保存到 `content/short-reads/`，并更新索引。
 
 #### 2.2a 预告方向确认（必须在写预告段落之前执行）
 

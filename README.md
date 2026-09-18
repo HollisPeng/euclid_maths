@@ -23,14 +23,14 @@
 
 一个真实运营中的数学公众号的完整内容仓库：
 
-- **31 篇长文**（No 系列）：一个专题讲透，从破题到一般化，篇幅数千字
+- **22 篇长文**（No 系列）：一个专题讲透，从破题到一般化，篇幅数千字
 - **8 篇日常短文**（S 系列）：一题一解一谈，五分钟读完
 - **特辑与公告**：高考祝福合集、勘误致歉等
-- **六个 AI 写作技能** + 两个第三方技能：支撑上述产出的工作流
+- **七个 AI 写作技能** + 一个第三方技能：支撑上述产出的工作流
 
 它不是一个"prompt 合集"。它是一套**已经跑了大半年、产出 30+ 篇文章、并且被读者挑过错**的完整内容生产流程——包括那套流程里的门控、规范、审阅机制，以及从真实事故中提炼的核查清单。
 
-> **勘误也是资产。** 仓库里有一份[致歉公告](公告_关于极端原理一处错误的致歉.md)——一篇文章写入过错误的几何命题，被读者发现后公开更正。这件事直接催生了工作流里的「命题正确性核查」硬规则：所有命题发布前必须构造反例验证。**这套流程的价值有一部分正来自它踩过的坑。**
+> **勘误也是资产。** 仓库里有一份[致歉公告](content/announcements/公告_关于极端原理一处错误的致歉.md)——一篇文章写入过错误的几何命题，被读者发现后公开更正。这件事直接催生了工作流里的「命题正确性核查」硬规则：所有命题发布前必须构造反例验证。**这套流程的价值有一部分正来自它踩过的坑。**
 
 ---
 
@@ -54,7 +54,7 @@
 
 门控前允许越界创新，门控后禁止任何未经批准的创意。**这解决了 AI 写作最典型的失败模式**：一边写一边"优化"，最后写出一篇没人批准过的东西。
 
-### 六个自有技能
+### 七个自有技能
 
 | 技能 | 作用 |
 |---|---|
@@ -64,6 +64,7 @@
 | `euclids-gate-agenda` | 跨会话任务追踪（未完成的思考题、待写专题） |
 | `euclids-gate-teacher-review` | **教师视角审阅**：模拟一线资深教师的课堂可用性检查 |
 | `euclids-gate-student-review` | **学生视角审阅**：模拟重点中学学生的真实阅读体验 |
+| `euclids-gate-figure` | **配图引擎**：数学图型路由、生成管线与视觉质检 |
 
 另有第三方技能 `humanizer-zh`（去除 AI 写作痕迹，见其 LICENSE）。
 
@@ -105,23 +106,23 @@
 
 | 主题 | 文章 |
 |---|---|
-| 组合与计数 | [鸽巢原理](No1_鸽巢原理_组合数论.md) · [Lucas 定理](No2_Lucas定理.md) · [组合极值](No4_组合极值.md) · [母函数](No8_母函数方法.md) · [课后习题全解](No10_课后习题全解.md) |
-| 数论 | [二次剩余](No9_二次剩余.md) · [连分式](No5_连分式.md) · [无穷递降法](No12_无穷递降法.md) · [奇偶性](No19_奇偶性.md) |
-| 几何与作图 | [网格作图](No3_网格作图.md) · [圆幂定理与根轴](No20_圆幂定理与根轴.md) · [复数在平面几何中的运用](No21_复数在平面几何中的运用.md) |
-| 代数与不等式 | [韦达定理](No11_韦达定理.md) · [柯西-施瓦茨不等式](No7_柯西施瓦茨不等式.md) |
-| 方法专题 | [极端原理](No17_极端原理.md) · [构造性证明](No14_构造性证明.md) · [非构造性证明](No15_非构造性证明.md) · [群作用](No13_群作用.md) · [图论入门](No18_图论入门.md) |
-| 数学与信息 | [猜数魔术](No22_猜数魔术.md) · [最少需要几次](No23_最少需要几次.md) |
-| 人文通识 | [单次与无限博弈](No16_单次与无限博弈.md) |
+| 组合与计数 | [鸽巢原理](content/articles/No1_鸽巢原理_组合数论.md) · [Lucas 定理](content/articles/No2_Lucas定理.md) · [组合极值](content/articles/No4_组合极值.md) · [母函数](content/articles/No8_母函数方法.md) · [课后习题全解](content/articles/No10_课后习题全解.md) |
+| 数论 | [二次剩余](content/articles/No9_二次剩余.md) · [连分式](content/articles/No5_连分式.md) · [无穷递降法](content/articles/No12_无穷递降法.md) · [奇偶性](content/articles/No19_奇偶性.md) |
+| 几何与作图 | [网格作图](content/articles/No3_网格作图.md) · [圆幂定理与根轴](content/articles/No20_圆幂定理与根轴.md) · [复数在平面几何中的运用](content/articles/No21_复数在平面几何中的运用.md) |
+| 代数与不等式 | [韦达定理](content/articles/No11_韦达定理.md) · [柯西-施瓦茨不等式](content/articles/No7_柯西施瓦茨不等式.md) |
+| 方法专题 | [极端原理](content/articles/No17_极端原理.md) · [构造性证明](content/articles/No14_构造性证明.md) · [非构造性证明](content/articles/No15_非构造性证明.md) · [群作用](content/articles/No13_群作用.md) · [图论入门](content/articles/No18_图论入门.md) |
+| 数学与信息 | [猜数魔术](content/articles/No22_猜数魔术.md) · [最少需要几次](content/articles/No23_最少需要几次.md) |
+| 人文通识 | [单次与无限博弈](content/articles/No16_单次与无限博弈.md) |
 
 ### S 系列（日常短文）
 
 一题一解一谈，五分钟读完。选题标准是"形式简洁、解法优雅、结构精妙"。
 
-[无理数的整数心](S1_无理数的整数心.md) · [聚会定理](S2_聚会定理.md) · [互补配对](S3_互补配对.md) · [棋盘悖论](S4_棋盘悖论.md) · [循环立方](S5_循环立方.md) · [一笔画](S6_一笔画.md) · [幻方之谜](S7_幻方之谜.md) · [剪绳子](S8_剪绳子.md)
+[无理数的整数心](content/short-reads/S1_无理数的整数心.md) · [聚会定理](content/short-reads/S2_聚会定理.md) · [互补配对](content/short-reads/S3_互补配对.md) · [棋盘悖论](content/short-reads/S4_棋盘悖论.md) · [循环立方](content/short-reads/S5_循环立方.md) · [一笔画](content/short-reads/S6_一笔画.md) · [幻方之谜](content/short-reads/S7_幻方之谜.md) · [剪绳子](content/short-reads/S8_剪绳子.md)
 
 ### 其他
 
-[一道恒等式的三把钥匙](one-identity-three-keys.md) · [2026 高考祝福合集](特辑_2026高考祝福合集.md) · [日常短文改版公告](公告_日常短文改版.md) · [关于极端原理一处错误的致歉](公告_关于极端原理一处错误的致歉.md)
+[一道恒等式的三把钥匙](content/features/one-identity-three-keys.md) · [2026 高考祝福合集](content/features/特辑_2026高考祝福合集.md) · [日常短文改版公告](content/announcements/公告_日常短文改版.md) · [关于极端原理一处错误的致歉](content/announcements/公告_关于极端原理一处错误的致歉.md)
 
 ---
 
@@ -129,9 +130,13 @@
 
 ```
 euclid_maths/
-├── No*.md, S*.md            文章正文
-├── generated_images/        配图（TikZ 编译产物）
-├── article_index.json       文章索引 + 未完成任务（agenda）
+├── content/
+│   ├── articles/            No 系列长文
+│   ├── short-reads/         S 系列日常短文
+│   ├── features/            特辑与独立文章
+│   └── announcements/       公告与勘误
+├── assets/images/           文章配图
+├── data/article_index.json  文章索引 + 未完成任务（agenda）
 ├── archive/                 历史版本（文章与技能的旧版备份）
 ├── devlog/                  项目评估与决策记录
 └── .claude/skills/          写作工作流
@@ -149,7 +154,7 @@ cp -r .claude/skills/* <你的项目>/.claude/skills/
 
 **依赖**：配图功能需要 TeX 发行版（MiKTeX / TeX Live）提供 `pdflatex`、`pgfplots`，以及 `pdftoppm`。其余功能无外部依赖。
 
-**注意**：`article_index.json` 里的路径、`euclids-gate-manage` 与 `euclids-gate-agenda` 中的索引路径都指向本仓库位置，迁移到别的项目时需要相应修改。
+**注意**：索引使用相对于仓库根目录的路径；复制工作流到其他项目时，请保持目录结构一致，或同步修改 `data/article_index.json` 与相关技能中的路径约定。
 
 ---
 
