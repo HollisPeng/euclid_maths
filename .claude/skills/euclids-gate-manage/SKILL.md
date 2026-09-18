@@ -125,7 +125,5 @@ data/article_index.json
 
 ## 文章目录路径
 
-所有文章保存到：
-```
-content/articles/
-```
+- 常规文章（`No` 系列）：`content/articles/`
+- 日常短文（`S` 系列）：`content/short-reads/`
