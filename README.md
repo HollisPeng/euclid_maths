@@ -1,5 +1,7 @@
 # 欧几里德之门
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 > 一个数学教育公众号的内容仓库，以及驱动它的**一套 AI 写作工作流**。
 
 公众号主张「讲数学，也不失人文温度」——以数学启发人的心灵，以几何强大人的思维。这个仓库里有两样东西：**写出来的文章**，和**写出这些文章的那套流程**。
@@ -160,13 +162,13 @@ cp -r .claude/skills/* <你的项目>/.claude/skills/
 
 ## 开源说明
 
-本仓库内容（文章正文、配图、工作流定义）开放供学习与参考。
+本项目 fork 自 [`LongxuanWangHSY/euclid_maths`](https://github.com/LongxuanWangHSY/euclid_maths)。
+
+除另有说明的第三方内容外，本仓库采用 [MIT License](LICENSE)：
 
 - 文章引用请注明出处
-- 工作流欢迎借鉴与改造，若能注明来源更好
-- `humanizer-zh` 为第三方技能，遵循其自带 LICENSE
-
-**尚未确定**：正式的 LICENSE 文件待补。
+- 工作流欢迎学习、使用与改造
+- `humanizer-zh` 为第三方技能，继续遵循其目录内的 LICENSE
 
 ---
 
