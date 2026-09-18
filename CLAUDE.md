@@ -20,7 +20,8 @@
 ## 写作规范
 
 ### 文章文件
-- 文件名格式：`No{序号}_{中文标题}.md`（如 `No15_非构造性证明.md`）
+- 长文保存到 `content/articles/`，文件名格式为 `No{序号}_{中文标题}.md`（如 `No15_非构造性证明.md`）
+- 日常短文保存到 `content/short-reads/`，文件名格式为 `S{序号}_{中文标题}.md`
 - 数学公式用 LaTeX：`$...$` 行内、`$$...$$` 独立行
 - 文章分类参照 `.claude/skills/euclids-gate-math-writing/SKILL.md` 模板
 
@@ -77,15 +78,15 @@ agent-manager core                # 还原核心 8 个
 ### 切走前（落盘，缺一不可）
 1. `devlog/` 补一条本次会话的决策记录 + 未完成项（尤其跨会话重要决策与用户偏好）
 2. 把新约定固化进 `.claude/skills/*/SKILL.md` 或本文件，别只留在对话里
-3. `article_index.json` 与磁盘对齐（文章、agenda、pending_topics 无漂移）
+3. `data/article_index.json` 与磁盘对齐（文章、agenda、pending_topics 无漂移）
 4. `git status` 确认无未提交关键改动；重大更新 commit（约定式提交）
 5. 禁止把 API key 写进任何会被提交的文件或对话转写；密钥只放环境变量 / `settings.local.json`（已 ignore）
 
 ### 切回来（重建上下文，按顺序）
 1. 读本文件 CLAUDE.md（项目规范 + 本约定）
 2. 读 `devlog/` 最近一条 + `memory/MEMORY.md`（如存在）对齐上次状态
-3. 读 `article_index.json` 的 agenda（pending_topics / pending_answers）确定队列
-4. 读 `.claude/skills/` 六个 SKILL.md 加载写作工作流（写作任务前必读）
+3. 读 `data/article_index.json` 的 agenda（pending_topics / pending_answers）确定队列
+4. 读 `.claude/skills/` 中的项目技能加载写作工作流（写作任务前必读）
 5. 最后 `git log` 补细节——对话原文仅作有损日志，不作事实依据
 
 ### 风险提示

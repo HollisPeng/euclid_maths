@@ -17,7 +17,7 @@ description: >
 
 **路径（固定，跨系统共用）**：
 ```
-C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
+data/article_index.json
 ```
 
 ### 索引结构
@@ -30,7 +30,7 @@ C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
       "title": "No1. 文章标题",
       "date": "2026-06-01",
       "category": "组合数论",
-      "file": "绝对路径",
+      "file": "content/articles/No1_文章标题.md",
       "preview": "预告主题",
       "questions": ["思考题1", "思考题2"],
       "questions_answered": false
@@ -88,9 +88,9 @@ C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
 
 ### 步骤四：保存与更新索引
 
-- 文件命名格式：`No{id}_主题.md`，保存到 output 目录
-- **日常短文（S 系列）特殊处理**：文件名 `S{编号}_主题.md`；记录进索引（category 标「短篇」）但**不加入 agenda.pending_answers**（无思考题）、不写预告字段、不参与板块轮换
-- 更新 article_index.json：
+- 文件命名格式：`No{id}_主题.md`，保存到 `content/articles/`
+- **日常短文（S 系列）特殊处理**：文件名 `S{编号}_主题.md`，保存到 `content/short-reads/`；记录进索引（category 标「短篇」）但**不加入 agenda.pending_answers**（无思考题）、不写预告字段、不参与板块轮换
+- 更新 data/article_index.json：
   - 追加新文章记录（id 递增、标题、日期、板块、预告、思考题、questions_answered: false）
   - 从 agenda.pending_topics 中移除已完成的预告
   - 将新文章的思考题加入 agenda.pending_answers
@@ -104,7 +104,7 @@ C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
 
 全自动执行，无用户交互：
 
-1. 读取 article_index.json
+1. 读取 data/article_index.json
 2. 取 agenda.pending_topics 中最早未完成的预告主题
 3. 若无预告，按代数→几何→组合→数论轮换
 4. 撰写文章（不附往期解答）
@@ -115,7 +115,7 @@ C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
 
 当用户要求修改某篇文章时：
 
-1. 从 article_index.json 找到目标文章的文件路径
+1. 从 data/article_index.json 找到目标文章的文件路径
 2. 读取文件内容
 3. 将原文件备份到 `archive/articles/`，命名为 `No{id}_主题_v{版本号}.md`（如 `No5_连分式_v1.md`），版本号从已有备份中递增。**文件必须移动（而非复制）到 archive 目录，不得留在根目录**
 4. 按用户要求修改内容，保存为新文件（保持原文件名不变，即 `No{id}_主题.md`）
@@ -125,7 +125,5 @@ C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
 
 ## 文章目录路径
 
-所有文章保存到：
-```
-C:\Users\wlx\DeskBox\CoreProjects\euclid_maths
-```
+- 常规文章（`No` 系列）：`content/articles/`
+- 日常短文（`S` 系列）：`content/short-reads/`

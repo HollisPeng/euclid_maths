@@ -8,7 +8,7 @@ description: >
 
 ## Agenda 结构
 
-Agenda 存储在 article_index.json 的 `agenda` 字段中：
+Agenda 存储在 data/article_index.json 的 `agenda` 字段中：
 
 ```json
 {
@@ -31,7 +31,7 @@ Agenda 存储在 article_index.json 的 `agenda` 字段中：
 
 当用户问"有哪些未完成任务"或"agenda 里有什么"时：
 
-- 读取 article_index.json
+- 读取 data/article_index.json
 - 列出 pending_answers（按 article_id 排序）
 - 列出 pending_topics（按添加顺序）
 - 用表格形式展示
@@ -42,7 +42,7 @@ Agenda 存储在 article_index.json 的 `agenda` 字段中：
 
 执行流程：
 
-1. 读取 article_index.json
+1. 读取 data/article_index.json
 2. 查找 pending_answers 中 questions_answered 为 false 的最早文章
 3. 读取该文章的完整内容，提取思考题
 4. 在新文章开头（题目之前）增加「上期思考题解答」小节：
@@ -61,13 +61,13 @@ Agenda 存储在 article_index.json 的 `agenda` 字段中：
 
 5. 将该文章的 `questions_answered` 设为 `true`
 6. 从 agenda.pending_answers 中移除该项
-7. 更新 article_index.json
+7. 更新 data/article_index.json
 
 ### 3. 直接解答往期思考题
 
 当用户说"帮我解答第X期的思考题"：
 
-1. 从 article_index.json 找到对应文章
+1. 从 data/article_index.json 找到对应文章
 2. 读取文章，提取思考题
 3. 逐题给出完整解答
 4. 将解答保存为独立文件：`NoX_思考题解答.md`
@@ -86,5 +86,5 @@ Agenda 存储在 article_index.json 的 `agenda` 字段中：
 ## 索引文件路径（固定）
 
 ```
-C:\Users\wlx\DeskBox\CoreProjects\euclid_maths\article_index.json
+data/article_index.json
 ```
