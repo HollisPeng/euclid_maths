@@ -162,8 +162,6 @@ cp -r .claude/skills/* <你的项目>/.claude/skills/
 
 ## 开源说明
 
-本项目 fork 自 [`LongxuanWangHSY/euclid_maths`](https://github.com/LongxuanWangHSY/euclid_maths)。
-
 除另有说明的第三方内容外，本仓库采用 [MIT License](LICENSE)：
 
 - 文章引用请注明出处
